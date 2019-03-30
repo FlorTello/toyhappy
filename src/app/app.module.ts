@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
 
 import {
+  MatIconModule,
   MatToolbarModule,
 	MatBadgeModule,
 	MatButtonModule,
@@ -38,6 +39,7 @@ import {
   imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, ReactiveFormsModule,
   FlexLayoutModule, HttpClientModule,
   MatButtonModule,
+  MatIconModule,
   MatToolbarModule,
 		MatInputModule,
 		MatTabsModule,
@@ -63,6 +65,7 @@ import {
   MatButtonModule,
   MatToolbarModule,
 		MatInputModule,
+    MatIconModule,
 		MatTabsModule,
 		MatRadioModule,
 		MatCheckboxModule,
